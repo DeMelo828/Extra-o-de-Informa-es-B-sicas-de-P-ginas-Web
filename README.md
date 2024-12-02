@@ -23,4 +23,24 @@ Este script Bash permite extrair informações básicas de uma página web, como
 
    ```bash
    chmod +x script.sh
+## Execute o script passando a URL do site que deseja analisar:
 
+```bash
+./script.sh <URL>
+./script.sh https://example.com
+```
+
+## Exemplo de Saída
+```bash
+Título do site: Example Domain
+Servidor web: nginx
+Linguagem de programação: PHP
+Todas as URLs do site:
+https://example.com
+https://example.com/about
+...
+
+Formulários e inputs de texto:
+action="/submit"
+<input type="text" name="username" />
+<input type="password" name="password" />
