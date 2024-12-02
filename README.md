@@ -38,9 +38,11 @@ Linguagem de programação: PHP
 Todas as URLs do site:
 https://example.com
 https://example.com/about
-...
+```
 
-Formulários e inputs de texto:
+## Formulários e inputs de texto:
+```
 action="/submit"
 <input type="text" name="username" />
 <input type="password" name="password" />
+```
